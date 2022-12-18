@@ -1,0 +1,12 @@
+n=list(int(val) for val in input().split(' '))
+k=int(input())
+m=0
+o=len(n)
+for i in range(o):
+    for j in range(o):
+        if n[i]==n[j]:
+            continue
+        if n[i]+n[j]==k:
+            m=1
+if m==1:
+    print("true")
