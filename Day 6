@@ -1,0 +1,5 @@
+def centered_pentagonal_Num(n):
+    return (5 * n * n - 5 * n + 2) // 2
+n = 8
+print("%sth Centered pentagonal number : " %n,
+                    centered_pentagonal_Num(n))
