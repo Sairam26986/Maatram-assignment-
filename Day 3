@@ -1,0 +1,12 @@
+n=list(map(int,input().split()))
+k=sorted(n)
+g=0
+res=0
+for i in range(min(k),max(k)+1):
+     if i not in n:
+         res=i
+     g=g+1
+if len(k)==g:
+     print(g)
+else:
+     print(res)
