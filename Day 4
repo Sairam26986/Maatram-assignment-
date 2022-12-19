@@ -1,0 +1,4 @@
+P=int(input())
+def format number(x):
+   print(f" (P:,d}")
+format number(P)
