@@ -1,0 +1,7 @@
+def maxSum(arr,i):
+    if(i==0):
+        return arr[i]
+    if(i==1):
+        return max(arr[i-1], arr[i])
+    else:
+        return max(maxSum (arr,i-1), arr[i]+maxSum (arr,i-2))
